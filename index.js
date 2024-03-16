@@ -1,7 +1,8 @@
 const Notification = props => {
-  const notify = {props}
+  const {notify,src,className} = props;
+  const classname=`className-${className}`;
   return (
-    <div className='bgr'>
+    <div className={classname}>
       <>
         <img src={src} className='img' />
         <p className='p'>{notify}</p>
@@ -13,8 +14,9 @@ const Notification = props => {
 const Element = (
   <div className='bg'>
     <h1 class='heading'>Notifications</h1>
+   <div>
     <Notification
-      className='Blue'
+      className='Blue b'
       notify='Information Message'
       src='https://assets.ccbp.in/frontend/react-js/primary-icon-img.png'
     />
@@ -33,6 +35,7 @@ const Element = (
       notify='Error Message'
       src='https://assets.ccbp.in/frontend/react-js/danger-icon-img.png'
     />
+    </div>
   </div>
 )
 
