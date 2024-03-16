@@ -1,0 +1,36 @@
+/* Write your code here. */
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 8px;
+}
+.imge {
+  height: 10px;
+  width: 10px;
+}
+.blue {
+  background-color: #0b69ff;
+}
+.green {
+  background-color: #2dca73;
+}
+.yellow {
+  background-color: #ffb800;
+}
+.red {
+  background-color: #ff0b37;
+}
+.heading {
+  font-size: 30px;
+  color: #0f172a;
+  font-family: 'Roboto';
+}
