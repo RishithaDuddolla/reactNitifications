@@ -21,17 +21,17 @@ const Element = (
     <Notification
       className='green'
       notify='Success Message'
-      src='https://assets.ccbp.in/frontend/react-js/primary-icon-img.png'
+      src='https://assets.ccbp.in/frontend/react-js/success-icon-img.png'
     />
     <Notification
       className='yellow'
       notify='Warning Message'
-      src='https://assets.ccbp.in/frontend/react-js/primary-icon-img.png'
+      src='https://assets.ccbp.in/frontend/react-js/warning-icon-img.png'
     />
     <Notification
       className='red'
       notify='Error Message'
-      src='https://assets.ccbp.in/frontend/react-js/primary-icon-img.png'
+      src='https://assets.ccbp.in/frontend/react-js/danger-icon-img.png'
     />
   </div>
 )
